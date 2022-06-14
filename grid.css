@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color:gainsboro;
+    margin: 0 auto;
+    width: 50%;
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    'A A B'
+    'C D D'
+    'C E E';
+    grid-template-rows: 150px 90px 130px;
+    grid-template-columns: 250px 150px 200px;
+    margin-top: 160px;
+    margin-bottom: 100px;
+    margin-left: 90px;
+    width: 600px;
+    gap: 15px;
+}
+
+main div{
+    padding: 2em;
+}
+
+.A{
+    background-color: red;
+    grid-area: A;
+}
+
+.B{
+    background-color: yellow;
+    grid-area: B;
+}
+
+.C{
+    background-color: green;
+    grid-area: C;
+}
+
+.D{
+    background-color: blue;
+    grid-area: D;
+}
+
+.E{
+    background-color: blue;
+    grid-area: E;
+}
+
+.go{
+    background-color: hsl(31, 77%, 52%);
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    outline: none;
+    color: white;
+    align-items: center;
+    margin-left: 320px;
+}
+
+.go:hover{
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
