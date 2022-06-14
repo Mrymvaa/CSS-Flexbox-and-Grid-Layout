@@ -1,5 +1,16 @@
-## Welcome to GitHub Pages
+<h1> CSS Flexbox and Grid Layout </h1>
 
-You can use the [editor on GitHub](https://github.com/Mrymvaa/CSS-Flexbox-and-Grid-Layout/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+A) Recreate a 3-column card design using CSS Flexbox  Layout
+- This task should be on the index.html file .
+- All information and images needed for the design can be found in this folder here
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+B) Recreate the design using CSS Grid Layout  
+
+- This task should be on the grid.html file.
+
+- You can use any background color of your choice
+
+To access the repisitory with the code , click here : https://github.com/Mrymvaa/CSS-Flexbox-and-Grid-Layout 
+
+To access the page : https://github.com/Mrymvaa/CSS-Flexbox-and-Grid-Layout
